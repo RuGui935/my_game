@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>林中小屋 · 迷雾之径</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="game-container" id="gameApp">
+    <div class="top-bar">
+        <div class="player-info" id="playerStatsPanel">
+            <!-- 动态显示玩家数据 -->
+        </div>
+        <div class="settings-icon" id="settingsBtn">⚙️</div>
+    </div>
+    <div class="main-panel" id="mainPanel">
+        <!-- 动态内容：副本列表 / 游戏剧情 / 商城等 -->
+    </div>
+    <div class="nav-bar">
+        <button class="nav-item" data-nav="forum">📰 论坛</button>
+        <button class="nav-item" data-nav="shop">🛒 商城</button>
+        <button class="nav-item" data-nav="dungeon" id="defaultNav">⚔️ 副本</button>
+        <button class="nav-item" data-nav="inventory">🎒 背包</button>
+        <button class="nav-item" data-nav="profile">👤 个人</button>
+    </div>
+    <footer>【迷失之径 · 暗影耳钉】</footer>
+</div>
+
+<script src="./js/data.js"></script>
+<script src="./js/logic.js"></script>
+<script src="./js/render.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
